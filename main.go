@@ -82,7 +82,7 @@ func appMain(ctx *cli.Context) error {
 		Handler:        r,
 	}
 	logrus.Fatal(s.ListenAndServe())
-
+	return nil
 }
 
 func main() {
