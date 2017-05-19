@@ -1,3 +1,3 @@
-FROM ubuntu:16.04
+FROM alpine:3.5
 COPY apm-prom-go-demo /usr/bin/
 CMD ["apm-prom-go-demo"]
